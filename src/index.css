@@ -83,11 +83,12 @@
 
 .cover-two {
   /* background-color: white; */
-  background-image: url("man_running.png");
+  background-image: url("adeoti.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 40% 60%;
-  transform: scaleX(-1);
+  margin-bottom: 100px;
+  /* transform: scaleX(-1); */
 }
 
 .cover-one h4 span {
