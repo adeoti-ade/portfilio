@@ -55,3 +55,81 @@
   color: orange;
   transition: 0.5s;
 }
+
+/* Cover */
+.cover {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+  padding: 2% 0% 0% 7.5%;
+  height: 600px;
+}
+
+.cover-one {
+  font-size: 2.5em;
+}
+
+.cover-one p {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.cover-one h4 {
+  color: #99efd0;
+  font-size: 60px;
+}
+
+.cover-two {
+  /* background-color: white; */
+  background-image: url("man_running.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 40% 60%;
+  transform: scaleX(-1);
+}
+
+.cover-one h4 span {
+  color: #8476aa;
+}
+
+.button {
+  /* padding: 15px 20px; */
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.cover-one div button:nth-child(1) {
+  color: #ffffff;
+  border: 1.5px solid orange;
+  margin-right: 20px;
+  background-color: orange;
+}
+
+.cover-one div button:nth-child(1):hover {
+  color: orange;
+  border: 1.5px solid orange;
+  background-color: transparent;
+  cursor: grab;
+  transition: background-color 0.5s;
+}
+
+.cover-one div button:nth-child(2) {
+  color: orange;
+  border: 1.5px solid orange;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+.cover-one div button:nth-child(2):hover {
+  color: #ffffff;
+  border: 1.5px solid orange;
+  margin-right: 20px;
+  background-color: orange;
+  cursor: grab;
+  transition: background-color 0.5s;
+}
