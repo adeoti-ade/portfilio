@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1200px) {
+    .cover {
+        /* display: grid;
+        grid-template-columns: 50% 50%; */
+        color: white;
+        padding: 2% 0% 0% 7.5%;
+        height: 600px;
+        @apply grid grid-cols-2;
+      }
+  }
